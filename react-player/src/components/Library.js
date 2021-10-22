@@ -7,6 +7,7 @@ const Library = ({
   audioRef,
   isPlaying,
   setIsPlaying,
+  setSongs,
 }) => {
   return (
     <div className="library">
@@ -22,6 +23,7 @@ const Library = ({
             audioRef={audioRef}
             isPlaying={isPlaying}
             setIsPlaying={setIsPlaying}
+            setSongs={setSongs}
           />
         ))}
       </div>
